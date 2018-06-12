@@ -1,0 +1,138 @@
+body{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	transition: all .4s;
+}
+a{
+    color: #D4AF37;
+    transition: .4s;
+    font-weight: 700;
+}
+a:hover{
+    color: white;
+}
+hr{
+	border-top: 1px solid rgba(233,233,233,.8);
+}
+.btn{
+	font-size: 13.5px;
+}
+/*Init*/
+#init a{
+	font-family: "Franklin Gothic Book";
+    font-size: .7rem;
+	color: white;
+}
+#init a:hover{
+	color: #D4AF37;
+}
+/*Navbar*/
+.navbar{
+	height: 50px;
+	border: black solid 1px;
+}
+a.nav-link{
+	line-height: 25px;
+}
+.nav-link{
+	padding: 0;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.sign{
+	width: 65px;
+}
+.dropdown-menu.show{
+	padding: 10px;
+	margin-left: -130px;
+}
+.dropdown-menu a{
+	transition: all .4s;
+	font-size: 13.5px;
+	font-weight: 400;
+	color: black!important;
+}
+.dropdown-menu li:hover{
+	transition: all .4s;
+	background-color: rgb(215, 238, 230);
+}
+.dropdown{
+	margin-right: 10px;
+	margin-left: 10px;	
+	margin-top: 3px;
+}
+.dropdown-toggle::after{
+	margin-top: 5px;
+	color: #D4AF37;
+}
+/*Body*/
+.btn-outline-primary{
+	color:white;
+}
+.register{
+	font-size: 13.5px;
+}
+.register>a{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+/*Footer*/
+.footer>a{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.foot-link{
+	font-size: 14.5px;
+}
+.foot-link>a{
+	margin-right: 15px;
+	margin-left: 15px;	
+}
+.text-copyright{
+	font-size: 12px;
+	color: grey;
+}
+/*Form control*/
+.form-control::-webkit-input-placeholder { 
+	color: rgb(130,130,130);
+	font-weight: 700;
+	font-size: 14px;
+}  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { 
+	color: rgb(130,130,130);
+	font-weight: 700;
+	font-size: 14px;
+}  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { 
+	color: rgb(130,130,130);
+	font-weight: 700;
+	font-size: 14px;
+}  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { 
+	color: rgb(130,130,130);
+	font-weight: 700;
+	font-size: 14px;
+}  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder { 
+	color: rgb(130,130,130);
+	font-weight: 700;
+	font-size: 14px;
+}
+input.form-control{
+	height: 35px;
+}
+/*Contact*/
+.contact-div{
+	color: black;
+	background-color:  #D4AF37;
+	padding: 25px;
+	border-radius: 50px
+}
+p{
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+/*product*/
+.modal-header .close {
+    margin-top: -17px; 
+}
